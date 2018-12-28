@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "971381159216",
+    "firebase_url": "https://dopy-inventory.firebaseio.com",
+    "project_id": "dopy-inventory",
+    "storage_bucket": "dopy-inventory.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971381159216:android:9970ea28396ba393",
+        "android_client_info": {
+          "package_name": "application.dopy_inventory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971381159216-lsi77f5aphek07r6ik6jmjmme8u4rtpu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "application.dopy_inventory",
+            "certificate_hash": "a9bde7d8422265b69b0d59f3fbad39086e008a7f"
+          }
+        },
+        {
+          "client_id": "971381159216-s024lvtphfgcg78q51gml7r6b4sdgi8n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIiK1GLbgRT3pUfc0V7WApOumAghTqNGg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971381159216-s024lvtphfgcg78q51gml7r6b4sdgi8n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

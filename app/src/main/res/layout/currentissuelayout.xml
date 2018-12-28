@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/nametxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Nipun Agarwal"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/cameratxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Nikon DSLR"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"/>
+
+
+        <TextView
+            android:id="@+id/eventtxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Sizzle"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            ></TextView>
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/background_dark"
+        android:layout_marginBottom="10dp"></View>
+
+
+</LinearLayout>
